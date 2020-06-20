@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """An enhanced version of the 'echo' cmd line utility."""
 
-__author__ = "???"
+__author__ = "Kevin Blount"
 
 
 import sys
@@ -11,7 +11,7 @@ import sys
 def create_parser():
     """Returns an instance of argparse.ArgumentParser"""
     # your code here
-    return
+    return __author__
 
 
 def main(args):
